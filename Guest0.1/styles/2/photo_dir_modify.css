@@ -1,0 +1,54 @@
+#photo {
+	width: auto;
+	height: 800px;
+	border: 2px solid #ccc;
+}
+#photo h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#photo p {
+	text-align: center;
+	padding: 20px;
+}
+#photo p a {
+	font-size: 16px;
+	color: #333;
+}
+#photo dl {
+	width: 320px;
+	margin: 30px auto;
+}
+#photo dl dd {
+	padding: 10px 0;
+}
+#photo dl dd a {
+	color: blue;
+	text-decoration: none;
+}
+#photo dl dd a:hover {
+	color: #f60;
+}
+#photo dl dd input.text {
+	border: 1px dashed #333;
+	width: 200px;
+	height: 19px;
+}
+#photo dl dd textarea {
+	border: 1px dashed #333;
+	width: 200px;
+	height: 70px;
+}
+#photo dl dd#pass {
+	display: none;
+}
+#photo dl dd input.submit {
+	border: 1px dashed #333;
+	background: #fff;
+	width: 80px;
+	height: 25px;
+	cursor: pointer;
+	margin: 0 0 0 100px;
+}
+
+

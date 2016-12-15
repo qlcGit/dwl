@@ -1,0 +1,49 @@
+#photo {
+	width: auto;
+	height: 800px;
+	border: 2px solid #ccc;
+}
+#photo h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#photo p {
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+#photo p a {
+	font-size: 16px;
+	color: #333;
+}
+#photo dl {
+	width: 150px;
+	height: 150px;
+	margin: 21px;
+	float: left;
+}
+#photo dl dt {
+	width: 100px;
+	height: 100px;
+	background: url(../../images/photo.jpg) no-repeat;
+	margin: 0 auto;
+}
+#photo dl dt img {
+	display: block;
+	padding: 13px 0 0 20px;
+	/*border: none;*/
+}
+#photo dl dd {
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 3px 0;
+}
+#photo dl dd a {
+	color: #333;
+	text-decoration: none;
+}
+#photo dl dd a:hover {
+	color: #f60;
+}
+

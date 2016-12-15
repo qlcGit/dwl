@@ -1,0 +1,161 @@
+#list {
+	width: 940px;
+	height: 814px;
+	border: 2px solid #ccc;
+	float: right;
+}
+#list a.post {
+	display: block;
+	width: 240px;
+	height: 40px;
+	background: url(../../images/article.png) no-repeat;
+	text-indent: -9999px;
+	margin: 20px 10px 0 auto;
+}
+#list ul.article {
+	padding: 18px 50px;
+}
+#list ul.article li {
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px dashed #333;
+}
+#list ul.article li em {
+	float: right;
+	font-style: normal;
+}
+#list ul.article li a {
+	color: #333;
+	text-decoration: none;
+}
+#list ul.article li a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+#list ul.article li {
+	padding: 0 0 0 25px;
+}
+#list ul.article li.icon1 {
+	background: url(../../images/icon1.png) no-repeat left center;
+}
+#list ul.article li.icon2 {
+	background: url(../../images/icon2.png) no-repeat left center;
+}
+#list ul.article li.icon3 {
+	background: url(../../images/icon3.png) no-repeat left center;
+}
+#list ul.article li.icon4 {
+	background: url(../../images/icon4.png) no-repeat left center;
+}
+#list ul.article li.icon5 {
+	background: url(../../images/icon5.png) no-repeat left center;
+}
+#list ul.article li.icon6 {
+	background: url(../../images/icon6.png) no-repeat left center;
+}
+#list ul.article li.icon7 {
+	background: url(../../images/icon7.png) no-repeat left center;
+}
+#list ul.article li.icon8 {
+	background: url(../../images/icon8.png) no-repeat left center;
+}
+#list ul.article li.icon9 {
+	background: url(../../images/icon9.png) no-repeat left center;
+}
+#list ul.article li.icon10 {
+	background: url(../../images/icon10.png) no-repeat left center;
+}
+#list ul.article li.icon11 {
+	background: url(../../images/icon11.png) no-repeat left center;
+}
+#list ul.article li.icon12 {
+	background: url(../../images/icon12.png) no-repeat left center;
+}
+#list ul.article li.icon13 {
+	background: url(../../images/icon13.png) no-repeat left center;
+}
+#list ul.article li.icon14 {
+	background: url(../../images/icon14.png) no-repeat left center;
+}
+#list ul.article li.icon15 {
+	background: url(../../images/icon15.png) no-repeat left center;
+}
+#list ul.article li.icon16 {
+	background: url(../../images/icon16.png) no-repeat left center;
+}
+#list ul.article li.icon17 {
+	background: url(../../images/icon17.png) no-repeat left center;
+}
+#list ul.article li.icon18 {
+	background: url(../../images/icon18.png) no-repeat left center;
+}
+#list ul.article li.icon19 {
+	background: url(../../images/icon19.png) no-repeat left center;
+}
+#list ul.article li.icon20 {
+	background: url(../../images/icon20.png) no-repeat left center;
+}
+#user {
+	width: 580px;
+	height: 400px;
+	border: 2px solid #ccc;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#user dl {
+	width: 300px;
+	margin: 0 auto;
+	padding: 60px;
+}
+#user dl dt {
+	width: 300px;
+	margin: 10px 0 10px 0;
+}
+#user dl dt img {
+	margin: 0 auto;
+	display: block;
+}
+#user dl dd {
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 150px;
+	float: left;
+}
+#user dl dd.email,#user dl dd.url {
+	width: 300px;
+	text-align: left;
+	text-indent: 28px;
+	padding: 5px 0 0 0;
+}
+#user dl dd a {
+	text-decoration: none;
+	color: #333;
+}
+#user dl dd.user {
+	width: 300px;
+	float: none;
+	color: #f60;
+}
+#user dl dd.message {
+	background: url(../../images/x1.gif) no-repeat 30px center;
+}
+#user dl dd.friend {
+	background: url(../../images/x2.gif) no-repeat 20px center;
+}
+#user dl dd.guest {
+	background: url(../../images/x3.gif) no-repeat 30px center;
+}
+#user dl dd.flower {
+	background: url(../../images/x4.gif) no-repeat 20px center;
+}
+#pics {
+	width: 580px;
+	height: 400px;
+	border: 2px solid #ccc;
+	float: left;
+}
+#pics img {
+	display: block;
+	margin: 30px auto;
+}

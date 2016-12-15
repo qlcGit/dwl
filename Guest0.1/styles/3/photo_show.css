@@ -1,0 +1,35 @@
+#photo {
+	width: auto;
+	height: auto;
+	border: 2px solid #ccc;
+}
+#photo h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#photo p {
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+#photo p a {
+	font-size: 16px;
+	color: #333;
+}
+#photo dl {
+	float: left;
+	text-align: center;
+	height: 250px;
+	width: 320px;
+	margin: 40px 20px 10px 40px;
+}
+#photo dl dt img {
+	border: none;
+}
+#photo dl dd {
+	padding: 3px 0;
+}
+#photo dl dd a {
+	color: #333;
+	text-decoration: none;
+}

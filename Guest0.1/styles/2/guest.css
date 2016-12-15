@@ -1,0 +1,67 @@
+#guest {
+	width: auto;
+	min-height: 800px;
+	border: 2px solid #ccc;
+	position: relative;
+}
+#guest h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#guest table {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	background: #ccc;
+	margin-bottom: 0px;
+}
+#guest table th,#guest table td {
+	height: 22px;
+	line-height: 22px;
+	background: #fff;
+}
+#guest table td a {
+	text-decoration: none;
+	color: #333;
+}
+#guest table td a:hover {
+	text-decoration: underline;
+}
+#guest dl {
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
+}
+#guest dl dd {
+	display: inline-block;
+	margin: 5px 12px 5px 0;
+}
+#guest dl dd input.text {
+	width: 200px;
+	height: 19px;
+	background: #fff;
+	border: 1px dashed #333;
+}
+#guest dl dd input.yzm {
+	width: 80px;
+	margin: 0 10px;
+}
+#guest dl dd input.submit {
+	cursor: pointer;
+}
+#guest dl dd img#code {
+	position: relative;
+	top: 6px;
+	left: 8px;
+	cursor: pointer;
+}
+#guest dl dd textarea {
+	position: relative;
+	top: 4px;
+	width: 760px;
+	height: 21px;
+	background: #fff;
+	border: 1px dashed #333;
+	resize: none;
+	/*overflow-x: hidden;*/
+}

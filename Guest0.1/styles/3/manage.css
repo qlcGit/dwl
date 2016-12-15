@@ -1,0 +1,65 @@
+#member {
+	width: auto;
+	height: 800px;
+	border: 2px solid #ccc;
+}
+#member h2 {
+	text-indent: 0;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+#member_sidebar {
+	width: 500px;
+	height: 700px;
+	margin: 20px;
+	border: 1px dashed black;
+	float: left;
+}
+#member_sidebar dl {
+	width: 450px;
+	margin: 20px auto;
+}
+#member_sidebar dl dt {
+	height: 40px;
+	line-height: 40px;
+	background: #999;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+#member_sidebar dl dd {
+	height: 40px;
+	line-height: 40px;
+	background: #eee;
+	font-weight: bold;
+	text-align: center;
+	/*color: #fff;*/
+}
+#member_sidebar dl dd a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+#member_sidebar dl dd a:hover {
+	background: #ccc;
+}
+#member_main {
+	width: 950px;
+	height: 700px;
+	margin: 20px;
+	border: 1px dashed black;
+	float: right;
+}
+#member_main dl dd span {
+	letter-spacing: 6.6px;
+}
+#member_main dl {
+	width: 850px;
+	margin: 20px auto;
+	font-size: 14px;
+}
+#member_main dl dd {
+	padding: 10px 0;
+	border-bottom: 1px dashed #999;
+}

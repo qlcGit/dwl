@@ -1,0 +1,51 @@
+#blog {
+	width: auto;
+	height: 800px;
+	border: 2px solid #ccc;
+}
+#blog h2 {
+	text-indent: 0;
+	text-align: center;
+}
+#blog dl {
+	width: 250px;
+	margin: 10px 0 0 40px;
+	float: left;
+}
+#blog dl dt {
+	width: 250px;
+	margin: 5px 0 10px 0;
+}
+#blog dl dt img {
+	margin: 0 auto;
+	display: block;
+}
+#blog dl dd {
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 125px;
+	float: left;
+}
+#blog dl dd a {
+	text-decoration: none;
+	color: #333;
+}
+#blog dl dd.user {
+	width: 250px;
+	float: none;
+	color: #f60;
+}
+#blog dl dd.message {
+	background: url(../../images/x1.gif) no-repeat 18px center;
+}
+#blog dl dd.friend {
+	background: url(../../images/x2.gif) no-repeat 10px center;
+}
+#blog dl dd.guest {
+	background: url(../../images/x3.gif) no-repeat 18px center;
+}
+#blog dl dd.flower {
+	background: url(../../images/x4.gif) no-repeat 10px center;
+}
+
