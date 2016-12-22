@@ -1,4 +1,3 @@
-
 $(function () {
 	//个人中心
 	$('#header .member').hover(function() {
@@ -86,6 +85,13 @@ $(function () {
 				screen.unlock();
 			}
 		});
+	});
+
+	//退出
+	$('#header .member a').eq(3).click(function() {
+		$('#header .info').hide().html(unsetCookie('user'));
+		$('#header .reg').show();
+		$('#header .login').show();
 	});
 
 	//拖拽
@@ -661,14 +667,15 @@ $(function () {
 	var banner_type = 1;//1表示透明度轮播，2表示上下滚动轮播
 	
 	//自动轮播器
-	var banner_timer = setInterval(banner_fn,1000);
+	var banner_timer = setInterval(banner_fn,2000);
 	
 	//手动轮播器
 	$('#banner ul li').hover(function() {
 		clearInterval(banner_timer);
-		//alert($(this).css('color'));
+		// alert($(this).css('color'));
 		if ($(this).css('color') != 'rgb(51,51,51)' &&  $(this).css('color') != '#333') {
 			banner(this,banner_index == 0 ? $('#banner ul li').length() - 1 : banner_index - 1);
+			// alert(this);
 		}
 	},function() {
 		banner_index = $(this).index() + 1;
@@ -734,7 +741,7 @@ $(function () {
 	$(window).bind('resize',_wait_load);
 	function _wait_load() {
 		setTimeout(function() {
-			for (var i = 0; i < wait_load.length();i++) {
+			for (var i = 0,len = wait_load.length(); i < len;i++) {
 				var _this = wait_load.ge(i);
 				if (getInner().height + getScroll().top >= offsetTop(_this)) {
 					// alert($(_this).attr('src',$(_this).attr('xsrc')));
@@ -783,6 +790,7 @@ $(function () {
 		temp_img.src = $(this).attr('bigsrc');           //src属性可以在后台加载图片
 
 		var children = this.parentNode.parentNode;
+		// alert(this.parentNode.parentNode);
 		prev_next_img(children);
 		
 	});
@@ -1115,5 +1123,4 @@ $(function () {
 			$('body').css('background',json.bg_color + ' ' +'url(image/'+ json.big_bg +') repeat-x');
 		}
 	});
-
 });
