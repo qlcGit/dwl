@@ -1,2 +1,2 @@
 # dwl
-Computer Language learning records
+CS learning records
