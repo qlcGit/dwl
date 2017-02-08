@@ -8,7 +8,7 @@
 		alert(description);
 	}
 	window.Game = function() {
-		this.canvas = document.getElementsByTagName('canvas')[0];
+		this.canvas = document.getElementById('flappyBird');
 		// writeObj(this.canvas);
 		this.ctx = this.canvas.getContext("2d");
 		// writeObj(this.ctx);
