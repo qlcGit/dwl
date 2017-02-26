@@ -1,0 +1,34 @@
+<project name="FlappyBird Project" default="js.concatenate">
+<!-- 输出的目录 -->
+<property name="build.dir" value="./build" />
+<!-- 包含源文件的目录 -->
+<property name="src.dir" value="./js" />
+<!-- 合并所有 JS 文件的目标 -->
+<!-- Credit: Julien Lecomte, http://www.julienlecomte.net/blog/2007/09/16/ -->
+<target name="js.concatenate">
+	<concat destfile="${build.dir}/FB1.js">
+		<filelist dir="${src.dir}" files="Game.js, Land.js, Bird.js, Pipe.js, Background.js, SceneManagement.js, underscore.js"/>
+		<!-- <fileset dir="${src.dir}" includes="*.js" excludes="underscore.js"/> -->
+	</concat>
+</target>
+
+<target name="js.verify">
+	<apply executable="java" parallel="false">
+		<fileset dir="${build.dir}" includes="FB1.js"/>
+		<arg line="-jar"/>
+		<arg path="D:\Program Files\Java\rhino\rhino-1.7R4.jar" />
+		<arg path="D:\Program Files\Java\rhino\jslint.js" />
+		<srcfile/>
+	</apply>
+</target>
+
+<target name="js.compress">
+	<apply executable="java" parallel="false">
+		<fileset dir="${build.dir}" includes="FB1.js"/>
+		<arg line="-jar"/>
+		<arg path="D:\Program Files\Java\yuicompressor\yuicompressor-2.4.2.jar"/>
+		<arg line="-o ${build.dir}/FB1-min.js"/>
+		<srcfile/>
+	</apply>
+</target>
+</project>
